@@ -1,0 +1,228 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://kit.fontawesome.com/d76236df91.js" crossorigin="anonymous"></script>
+    <title>Alamdar Raza</title>
+    <script>
+        function toggledropdown(){
+    const caretIcon = document.getElementsByClassName('fa-caret-down')[0];
+    const caretIcon1=document.getElementsByClassName('fa-caret-up')[0];
+    const dropdownContent = document.getElementsByClassName('dropdown-content')[0];
+    const dropdown=document.getElementsByClassName('dropdown')[0];
+      if (dropdownContent.style.display==='block') {
+        dropdownContent.style.display='none';
+        caretIcon1.style.display='block';
+        caretIcon.style.display='none';
+      } else {
+        dropdownContent.style.display='block';
+        caretIcon1.style.display='none';
+        caretIcon.style.display='block';
+      }
+    }
+    </script>
+    <script>
+        function togglesidebar(){
+            const barsIcon=document.getElementsByClassName('fa-bars')[0];
+            const markIcon=document.getElementsByClassName('fa-xmark')[0];
+            const navbar=document.getElementsByClassName('navbar')[0];
+            if(navbar.style.display==='block'){
+                navbar.style.display = "none";
+                barsIcon.style.display = "block";
+                markIcon.style.display = "none";
+            }
+            else{
+                navbar.style.display = "block";
+                barsIcon.style.display = "none";
+                markIcon.style.display = "block";
+            }
+        }
+</script>
+</head>
+<body>
+    <div class="main">
+        <div class="main1">
+            <img src="./Images/official.png" alt="Profile-Pic">
+        <div class="sidebar"onclick="togglesidebar()">
+            <i class="fa-sharp fa-solid fa-bars"></i>
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+            </div>
+            <div class="navbar">
+                <li><a href="./">Home</a></li>
+                <li><a href="#section1">Contact Me</a></li>
+                <li><a href="./">Payment</a></li>
+            </div>
+            </div>
+    </div>
+    <div class="hero-section">
+        <div class="two-sides">
+            <div class="content-side">
+                <div class="heading">
+                    <span>______</span>
+                    <span>
+                    <h2>Hello</h2>
+                    </span>
+                    </div>
+               <h1>I'm
+               <span class="name">Alamdar</span>
+               Raza</h1>
+               <p>This Is Syed Alamdar Raza your very own Front-End Developer. <br>
+                 Helping Develop Solutions That Refine Processes, Save Time And Resources.</p>
+                 <div class="buttons">
+                    <button href="#section1">Contact Me</button>
+                  <button target="_blank" onclick="location.href='https://github.com/Razashah151'"> Github Profile</button>
+                 </div>
+                 <div class="icons1">
+                    <i target="_blank" onclick="location.href='https://www.linkedin.com/in/syed-muhammad-alamdar-raza-jaffri-b8bbab19b/'" class="fa-brands fa-linkedin"></i>
+                </div>
+                
+            </div>
+            <div class="image-side">
+                <img src="./Images/official-modified.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="hero-section1">
+        <div class="hero1-main">
+            <div class="content-side1">
+                <div class="heading1">
+                    <span>______</span>
+                    <span>
+                    <h2>About Me</h2>
+                    </span>
+                </div>
+                <p>I'm a Front-End Developer with more than one year of <br>
+                     experience building solutions. <br>
+                    I am concerned about quality,reusability and most <br>
+                     importantly value while developing anything</p>
+                     <div class="buttons1">
+                        <button>Hire Me</button>
+                     </div>
+            </div>
+            <div class="image-side1">
+                <img src="./Images/official-modified.png" alt="">
+            </div>
+           
+        </div>
+    </div>
+    <div class="hero-section2">
+        <div class="hero2-main">
+            <div class="heading2">
+                <span>______</span>
+                <span>
+                <h2>Technical Skills</h2>
+                </span>
+            </div>
+            <div class="right-side">
+               <span>HTML</span><br>
+                <progress id="file" value="90" max="100"> 32% </progress> <br>
+                <span>CSS</span> <br>
+                <progress id="file" value="80" max="100"> 32% </progress> <br>
+                <span>Javascript</span> <br>
+                <progress id="file" value="70" max="100"> 32% </progress><br>
+                <span>Bootstrap,Tailwind CSS</span> <br>
+                <progress id="file" value="80" max="100"> 32% </progress><br>
+                <span>Version-Control(Git,Github)</span> <br>
+                <progress id="file" value="70" max="100"> 32% </progress>
+            </div>
+        </div>
+    </div>
+    <div class="hero-section3">
+        <div class="hero3-main">
+            <div class="heading3">
+            <h1>Resume</h1>
+            <p>Here is a bit about my education and academic background</p>
+        </div>
+        <div class="information">
+        <div class="education">
+            <h1>Education</h1>
+            <div class="bachelor">
+                <p>October2020-June2024</p>
+                <h3>BS (Computer Science)</h3>
+                <p> Took courses regarding programming fundamentals, data <br>
+                     structures, Object-oriented programming and software development.</p>
+           <p>Szabist University,Islamabad</p>
+                    </div>
+            <div class="F.sc">
+
+            </div>
+            <div class="Matric">
+
+            </div>
+        </div>
+        <div class="experience">
+            <h1>Experience</h1>
+            <div class="front-end">
+            <p>March2022-June2023</p>
+            <h3>Front-End Developer</h3>
+            <p> Developed some websites using Html,Css,Bootstrap,Javascript</p>
+       <p>Szabist University,Islamabad</p>
+       </div>
+        </div>
+    </div>
+    </div>
+    </div><br>
+    
+    <div class="gap1">
+    <div id="section1" class="hero-section4">
+        <div class="hero4-main">
+            <p>Have any Project in Mind?</p>
+            <p>Just Say Hello !</p>
+            <button>Just Send Me Hi</button>
+        </div>
+    </div>
+    <div class="container">
+        <form action="./">
+            <div class="main2">
+                <h2>Contact Information</h2>
+                <p>
+                <input type="text"placeholder="Name">
+                </p>
+                <p>
+                <input type="email"placeholder="Email">
+                </p>
+                <p>
+                 <input type="text"placeholder="Country">
+                </p>
+                <p>
+                 <input type="text"placeholder="Project Description">
+                </p>
+                <div class="gap">
+                <select class="service" name="service" id="service">
+                    <option value="">Select your Service</option>
+                    <option value="landing-page">Landing Page</option>
+                    <option value="full-website">Full Website</option>
+                </select>
+                </div>
+                <div class="submit">
+                    <input type="submit">
+                </div>
+                <h4>You can also Contact through:</h4>
+                <div class="main-btn">
+                <button class="btn1"> 
+                    <a href="https://www.fiverr.com/razacstech/develop-website-using-html-css-javascript-77ab"></a>
+                     Fiverr <img src="./Images/fiverr.png" alt="">
+                    </button>
+           </div>
+                    </div>
+        </form>
+        <div class="heading4">
+            <span>______</span>
+            <span>
+            <p>alamdarraza10@gmail.com</p>
+            <i class="fa-brands fa-linkedin"></i>
+            </span>
+        </div>
+       </div>
+       </div>
+       <div class="footer">
+        <div class="footer-main">
+            <p>Copyright &copy; 2023 Syed Alamdar Raza,
+                All Rights Reserved</p>
+        </div>
+       </div>
+    
+</body>
+</html>
