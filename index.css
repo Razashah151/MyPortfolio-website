@@ -259,13 +259,14 @@ width: 300px;
     display: flex;
     justify-content: center;
 }
-@media screen and (max-width:320px) {
+@media screen and (max-width:600px) and (min-width:100px) {
     .main{
+      
         flex-direction: column;
     }
     .main1{
-        display: flex;
-        justify-content: space-between;
+        display: block;
+      
     }
     .navbar{
         flex-direction: column;
@@ -292,5 +293,6 @@ width: 300px;
        display: none;
        font-size: 30px;
        color: black;
+       
    }
 }
