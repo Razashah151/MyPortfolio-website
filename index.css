@@ -60,9 +60,15 @@ width: 300px;
   padding: 20px;
 }
 .buttons{
-    display: flex;
+    display:flex;
    flex-wrap: wrap;
     gap: 20px;
+  
+    
+}
+.linkbtn{
+    text-decoration: none;
+    color: white;
 }
 .buttons>button{
     padding: 20px;
@@ -71,6 +77,7 @@ width: 300px;
     font-size: 15px;
     border: none;
     border-radius: 20px;
+    
 }
 .buttons>button:hover{
     background-color:#4d4b5a;
